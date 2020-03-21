@@ -9,14 +9,14 @@ This library allows you to use Kevin's design pattern without needing to create 
 The views do not contain User Interface design content. The users are redirected to IdentityServer to login there.
 
  ### LoginIDP.cshtml / LogIDP.cs
-If there is no current User, the page invokes HttpContextChallengeAsync(OpenIdConnectDefaults.AuthenticationScheme), triggering the redirect to the IdentityServer login page.
-If there is a current User, they are redirected to the application root.
+Invokes HttpContextChallengeAsync(OpenIdConnectDefaults.AuthenticationScheme), triggering the redirect to the IdentityServer login page.
+If there is already a User signed in, they are redirected to the application root.
 
  ### LogoutIDP
 Invokes SignOutAsync for both the Cookie and OpenIdConnect authentication schemes. 
 
 ### Demo
-The [Demo](https://github.com/Tricklebyte/BlazorRazor/tree/master/demo) project is a continuation of Kevin's demo project with several modifications:
+The [Demo](https://github.com/Tricklebyte/BlazorRazor/tree/master/demo) project is based on Kevin's demo project with several modifications:
 * Upgraded project to .NET CORE version 3.1
-* Deleted LoginIDP and LogoutIDP files from project
-* Added Reference to BlazorRazor package
+* Deleted LoginIDP and LogoutIDP pages from project
+* Added Reference to BlazorRazor nuget package
