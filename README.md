@@ -1,6 +1,3 @@
-# ConfigCore
+#BlazorRazor
+**Reusable Razor pages for use in Blazor Server Applications
 
-
-## See the [Wiki](https://github.com/Tricklebyte/ConfigCore/wiki) for documentation. 
-
-Sample APIs, clients, and complete quickstart solutions are provided for multiple authentication types.
