@@ -15,6 +15,6 @@ Invokes ChallengeAsync on the HttpContext to trigger the redirect to IdentitySer
 Invokes SignOutAsync for both the Cookie and OpenIdConnect authentication schemes. 
 
 ### Demo
-The [Demo](https://github.com/Tricklebyte/BlazorRazor/tree/master/demo) project has two modifications from Kevin's demo project:\
+The [Demo](https://github.com/Tricklebyte/BlazorRazor/tree/master/demo) project has two modifications from Kevin's demo project:
 * LoginIDP and LogoutIDP pages have been removed 
 * Reference to BlazorRazor library has been added
