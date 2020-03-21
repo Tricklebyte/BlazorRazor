@@ -1,5 +1,5 @@
 # BlazorRazor 
-**Reusable Razor pages for use in Blazor Server Applications**
+**Reusable Razor pages and views for Blazor Applications**
 
  ## Blazor Server App support for IdentityServer Hybrid Flow
 **This library replaces the LoginIDP and LogoutIDP pages from Kevin Dockx's pluralsight video:**\
