@@ -16,6 +16,7 @@ If there is a current User, they are redirected to the application root.
 Invokes SignOutAsync for both the Cookie and OpenIdConnect authentication schemes. 
 
 ### Demo
-The [Demo](https://github.com/Tricklebyte/BlazorRazor/tree/master/demo) project is a continuation of Kevin's demo project with two modifications:
-* Local project LoginIDP and LogoutIDP pages have been removed 
-* Reference to BlazorRazor library has been added
+The [Demo](https://github.com/Tricklebyte/BlazorRazor/tree/master/demo) project is a continuation of Kevin's demo project with several modifications:
+* Upgraded project to .NET CORE version 3.1
+* Deleted LoginIDP and LogoutIDP files from project
+* Added Reference to BlazorRazor package
