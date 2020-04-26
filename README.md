@@ -1,7 +1,7 @@
 # BlazorRazor 
 **Reusable Razor pages and views for Blazor Applications**
 
- ## Blazor Server App support for IdentityServer Hybrid Flow
+ ## Blazor Server App support for IdentityServer authorization code and hybrid flows
 **This library replaces the LoginIDP and LogoutIDP pages from Kevin Dockx's pluralsight course:**\
 <br/>[Authentication and Authorization in Blazor Applications by Kevin Dockx](https://app.pluralsight.com/library/courses/authentication-authorization-blazor-applications)\
 <br/> In his Pluralsight course, Kevin demonstrates using the LoginIDP and LogoutIDP pages to support hybrid flow operations between the Blazor Server application and IdentityServer.\
